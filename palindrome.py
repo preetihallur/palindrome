@@ -1,8 +1,8 @@
 import sys
 
-s= sys.argv[1]
+user_input = sys.argv[1]
 
-if s == s[::-1]:
-    print(f"'{s}' is a palindrome.")
+if user_input == user_input[::-1]:
+    print(f"'{user_input}' is a palindrome.")
 else:
-    print(f"'{s}' is not a palindrome.")
+    print(f"'{user_input}' is not a palindrome.")
